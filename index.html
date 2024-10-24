@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الكتاب الإلكتروني التفاعلي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>الكتاب الإلكتروني التفاعلي</h1>
+    </header>
+
+    <main class="book">
+        <!-- الصفحة اليمنى -->
+        <section class="page">
+            <bdo dir="rtl">
+            <div>
+            <h2>الفصل الأول: مقدمة إلى البرمجة</h2>
+            <p>هذا هو النص الخاص بالفصل الأول. ستتعرف على أساسيات البرمجة وكيفية البدء بها.</p>
+            <div class="question">
+                <p>سؤال 1: ما هي البرمجة؟</p>
+                <button onclick="checkAnswer(this, 'البرمجة')">البرمجة</button>
+                <button onclick="checkAnswer(this, 'التصميم')">التصميم</button>
+                <button onclick="checkAnswer(this, 'الرياضيات')">الرياضيات</button>
+            </div>
+        </div></bdo>
+        </section>
+
+        <!-- الصفحة اليسرى -->
+        <section class="page">
+          <bdo dir="rtl"> <div>
+            <h2>الفصل الثاني: أساسيات HTML</h2>
+            <p>هذا هو النص الخاص بالفصل الثاني. سنتعلم أساسيات HTML.</p>
+            <div class="question">
+                <p>سؤال 2: ما هو HTML؟</p>
+                <button onclick="checkAnswer(this, 'HTML')">HTML</button>
+                <button onclick="checkAnswer(this, 'CSS')">CSS</button>
+                <button onclick="checkAnswer(this, 'JavaScript')">JavaScript</button>
+            </div>
+        </div></bdo> 
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 الكتاب الإلكتروني التفاعلي</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
